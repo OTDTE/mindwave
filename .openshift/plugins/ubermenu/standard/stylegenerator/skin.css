@@ -5,7 +5,7 @@
 
 #megaMenu {
   border:1px solid #3d0000;
-  border-bottom:;
+  border-bottom:0;
   background-color:#a50000;
   background:-webkit-gradient(linear,left top,left bottom,from(#a50000),to(#a50000));
   background:-webkit-linear-gradient(top,#a50000,#a50000);
