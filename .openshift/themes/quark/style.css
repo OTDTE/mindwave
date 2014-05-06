@@ -277,10 +277,18 @@ a:hover, a:active {
 .cat_list_tn {
 float: left;
 margin-right:10px;
-//clear: both;
+clear: both;
 display: block;
 
 }
+.cat_list_title {
+float: left;
+//margin-right:10px;
+clear: both;
+display: block;
+
+}
+
 
 #lcp_instance_0 a {
 clear: both;
