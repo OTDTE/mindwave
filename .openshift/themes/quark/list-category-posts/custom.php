@@ -86,7 +86,7 @@ foreach ($this->catlist->get_categories_posts() as $single){
   $lcp_display_output .= $this->get_excerpt($single, 'div', 'lcp_excerpt');
 
   //Close li tag
-  $lcp_display_output .= '</li>';
+  $lcp_display_output .= '<br></li>';
 }
 
 $lcp_display_output .= '</ul>';
