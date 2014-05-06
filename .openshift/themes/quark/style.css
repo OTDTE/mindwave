@@ -276,8 +276,9 @@ a:hover, a:active {
 
 .cat_list_tn {
 float: left;
-clear: both;
-display: block;
+margin-right:10px;
+//clear: both;
+//display: block;
 
 }
 
