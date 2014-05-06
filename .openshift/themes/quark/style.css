@@ -282,6 +282,11 @@ margin-right:10px;
 
 }
 
+#lcp_instance_0 a {
+clear: both;
+display: block;
+}
+
 blockquote:before,
 blockquote:after,
 q:before,
