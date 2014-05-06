@@ -54,6 +54,9 @@ $lcp_display_output .= '<div class="lcp_catlist">';
 foreach ($this->catlist->get_categories_posts() as $single){
   //Start a List Item for each post:
   $lcp_display_output .= '<div style="clear:both">';
+  
+  //Post Thumbnail
+  $lcp_display_output .= $this->get_thumbnail($single);
 
   //Show the title and link to the post:
   $lcp_display_output .= $this->get_post_title($single);
@@ -70,8 +73,7 @@ foreach ($this->catlist->get_categories_posts() as $single){
   //Custom fields:
   $lcp_display_output .= $this->get_custom_fields($this->params['customfield_display'], $single->ID);
 
-  //Post Thumbnail
-  $lcp_display_output .= $this->get_thumbnail($single);
+  
 
   /**
    * Post content - Example of how to use tag and class parameters:
