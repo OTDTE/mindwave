@@ -273,6 +273,14 @@ a:hover, a:active {
 	text-align:left;
 }
 
+.cat_list {
+margin-bottom: 20px;
+}
+
+.cat_list_tn {
+float: left;
+margin-right: 10px;
+}
 
 blockquote:before,
 blockquote:after,
