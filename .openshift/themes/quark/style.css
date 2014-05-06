@@ -273,13 +273,9 @@ a:hover, a:active {
 	text-align:left;
 }
 
-.cat_list {
-margin-bottom: 200px;
-}
 
 .cat_list_tn {
 float: left;
-margin-right: 10px;
 }
 
 blockquote:before,
