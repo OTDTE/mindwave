@@ -53,7 +53,7 @@ $lcp_display_output .= '<div class="lcp_catlist">';
  */
 foreach ($this->catlist->get_categories_posts() as $single){
   //Start a List Item for each post:
-  $lcp_display_output .= "<li>";
+  $lcp_display_output .= "<div>";
 
   //Show the title and link to the post:
   $lcp_display_output .= $this->get_post_title($single);
@@ -86,7 +86,7 @@ foreach ($this->catlist->get_categories_posts() as $single){
   $lcp_display_output .= $this->get_excerpt($single, 'div', 'lcp_excerpt');
 
   //Close li tag
-  $lcp_display_output .= '</li>';
+  $lcp_display_output .= '</div>';
 }
 
 $lcp_display_output .= '</div>';
