@@ -294,6 +294,9 @@ display: block;
 cursor: default !important;
 pointer-events: none;
 }
+.lcp_catlist a {
+    text-decoration: none;
+}
 
 #lcp_instance_0 a {
 clear: both;
