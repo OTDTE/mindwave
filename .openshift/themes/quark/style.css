@@ -279,8 +279,8 @@ float: left;
 margin-right:10px;
 margin-bottom:10px;
 
-clear: both;
-display: block;
+//clear: both;
+//display: block;
 
 }
 .cat_list_title {
@@ -297,7 +297,10 @@ pointer-events: none;
 .lcp_catlist a {
     text-decoration: none;
 }
-
+.lcp_catlist  {
+    clear: both;
+    display: block;
+}
 #lcp_instance_0 a {
 clear: both;
 display: block;
