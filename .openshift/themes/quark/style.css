@@ -290,7 +290,10 @@ clear: both;
 display: block;
 
 }
-
+.title_no_link {
+cursor: default !important;
+pointer-events: none;
+}
 
 #lcp_instance_0 a {
 clear: both;
