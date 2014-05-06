@@ -277,8 +277,8 @@ a:hover, a:active {
 .cat_list_tn {
 float: left;
 margin-right:10px;
-clear: both;
-display: block;
+//clear: both;
+//display: block;
 
 }
 .cat_list_title {
