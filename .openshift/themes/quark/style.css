@@ -276,6 +276,9 @@ a:hover, a:active {
 
 .cat_list_tn {
 float: left;
+clear: both;
+display: block;
+
 }
 
 blockquote:before,
