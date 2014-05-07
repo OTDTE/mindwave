@@ -191,7 +191,7 @@ p, ol, ul, dl, address {
 	margin-bottom:0rem;
 	font-size: 16px;
 	font-size: 1rem;
-	line-height: 1.5;
+	line-height: 0; // 1.5;
 }
 
 ul ul, ul ol, ol ol, ol ul {
@@ -290,7 +290,7 @@ a:hover, a:active {
 .cat_list_tn {
 float: left;
 margin-right:10px;
-margin-bottom:10px;
+margin-bottom:40px;
 width:180px !important;
 height:120px !important;
 min-width:1% !important;
