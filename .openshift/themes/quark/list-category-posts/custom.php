@@ -87,6 +87,8 @@ foreach ($this->catlist->get_categories_posts() as $single){
    */
   $lcp_display_output .= $this->get_excerpt($single, 'div', 'lcp_excerpt');
 
+$lcp_display_output .= '<a href="' . get_permalink($single->ID).'">Read more</a>';
+
   //Close li tag
   $lcp_display_output .= '</div>';
 }
