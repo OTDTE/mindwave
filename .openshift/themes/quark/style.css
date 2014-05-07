@@ -102,7 +102,7 @@ img.wp-smiley,
 }
 
 /* Header */
-h1, h2, h3, h4,h4b, h5, h6 {
+h1, h2, h3, h4,h8, h5, h6 {
 	font-family: 'Arvo', Georgia, "Times New Roman", Times, serif;
 	font-style: normal;
 	font-weight: 400;
@@ -142,7 +142,7 @@ h4 {
 	font-size: 1.5rem;
 	line-height: 1.25;
 }
-h4b { 
+h8 { 
 	margin-bottom: 5px;
 	margin-bottom: 0.3125rem;
 	font-size: 20px;
