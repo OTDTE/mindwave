@@ -316,6 +316,10 @@ clear: both;
 .lcp_catlist li {
 list-style: none;
 }
+.lcp_date{
+display: block;
+font-weight: bold;
+}
 #lcp_instance_0 a {
 clear: both;
 display: block;
