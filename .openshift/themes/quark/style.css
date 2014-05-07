@@ -278,7 +278,9 @@ a:hover, a:active {
 float: left;
 margin-right:10px;
 margin-bottom:10px;
-
+width:64px !important;
+height:64px !important;
+min-width:1% !important;
 //clear: both;
 //display: block;
 
