@@ -290,7 +290,7 @@ a:hover, a:active {
 .cat_list_tn {
 float: left;
 margin-right:10px;
-margin-bottom:40px;
+margin-bottom:0px;
 width:180px !important;
 height:120px !important;
 min-width:1% !important;
