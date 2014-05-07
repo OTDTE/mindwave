@@ -301,6 +301,8 @@ display: block;
 .title_no_link {
 cursor: default !important;
 pointer-events: none;
+margin-bottom:20px;
+
 }
 .lcp_catlist a {
     text-decoration: none;
