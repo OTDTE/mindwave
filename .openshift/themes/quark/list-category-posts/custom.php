@@ -53,7 +53,7 @@ $lcp_display_output .= '<div class="lcp_catlist">';
  */
 foreach ($this->catlist->get_categories_posts() as $single){
   //Start a List Item for each post:
-  $lcp_display_output .= '<div style="clear:both">';
+  $lcp_display_output .= '<div class="lcp_main">';
   
   //Post Thumbnail
   $lcp_display_output .= $this->get_thumbnail($single);

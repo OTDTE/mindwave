@@ -152,7 +152,7 @@ h8 {
 
 h5 { 
 	margin-bottom: 5px;
-	margin-bottom: 0.3125rem;
+	margin-bottom: 	
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.25;
@@ -290,7 +290,7 @@ a:hover, a:active {
 .cat_list_tn {
 float: left;
 margin-right:10px;
-margin-bottom:0px;
+margin-bottom:40px;
 width:180px !important;
 height:120px !important;
 min-width:1% !important;
@@ -323,6 +323,11 @@ clear: both;
 
 .lcp_catlist li {
 list-style: none;
+}
+.lcp_main {
+	clear: both;
+	height: auto;
+	min-height: 120px;
 }
 .lcp_date{
 display: block;
