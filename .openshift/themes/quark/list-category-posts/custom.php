@@ -52,7 +52,7 @@ $lcp_display_output .= '<div class="lcp_catlist">';
  * you want to display. You can also assign a specific CSS class to each field.
  */
 foreach ($this->catlist->get_categories_posts() as $single){
-  //Start a List Item for each post:
+  //Start a List Item for each post: eho
   $lcp_display_output .= '<div class="lcp_main">';
   
   //Post Thumbnail
