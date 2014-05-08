@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: Quark
 Theme URI: http://quarktheme.com
 Author: Anthony Hortin
@@ -162,8 +162,8 @@ h6 {
 	margin-bottom: 0px;
 	margin-bottom:0rem;// 
 	font-size: 14px;
-	font-size: 1.275rem;
-	line-height: .5;
+	font-size: .675rem;
+	line-height: 0;
 }
 h7 { 
 	margin-bottom: 5px;
@@ -191,7 +191,7 @@ p, ol, ul, dl, address {
 	margin-bottom:0rem;
 	font-size: 16px;
 	font-size: 1rem;
-	line-height:  1.5;
+	line-height: 1.5;
 }
 
 ul ul, ul ol, ol ol, ol ul {
@@ -327,23 +327,12 @@ list-style: none;
 .lcp_main {
 	clear: both;
 	height: auto;
-	min-height: 150px;
-	border: 1px solid #ffffff;
-	padding:15px;
+	min-height: 120px;
 }
-.lcp_date {
+.lcp_date{
 display: block;
 font-weight: bold;
 }
-
-.lcp_date p {
-	font-size: 32px;
-	font-size: 2rem;
-}
-.special-text { 
- font-style: italic; font-decoration: underline; font-weight: bold; 
-}
-
 #lcp_instance_0 a {
 clear: both;
 display: block;
