@@ -158,7 +158,7 @@ class CatListDisplayer {
 
       $url = strtok($_SERVER["REQUEST_URI"],'?');
 
-      $page_link = "http://$_SERVER[HTTP_HOST]$url?$query" .
+      $page_link = "https://$_SERVER[HTTP_HOST]$url?$query" .
         $amp . "lcp_page" . $this->catlist->get_instance() . "=". $page .
         "#lcp_instance_" . $this->catlist->get_instance();
       $link .=  "<li><a href='$page_link' title='$page'>";
