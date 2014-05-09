@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: Quark
 Theme URI: http://quarktheme.com
 Author: Anthony Hortin
@@ -19,7 +19,7 @@ Text Domain: quark
 /* Apply a natural box layout model to all elements - http://paulirish.com/2012/box-sizing-border-box-ftw/ */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-/* Using rem font sizing (Root em’s) with fallback to px for ie8 and below - http://snook.ca/archives/html_and_css/font-size-with-rem */
+/* Using rem font sizing (Root em�s) with fallback to px for ie8 and below - http://snook.ca/archives/html_and_css/font-size-with-rem */
 body { margin: 0; font-size: 16px; font-size: 1rem; line-height: 1.5; }
 
 ::-webkit-selection { background: #5784FE; color: #fff; text-shadow: none; }
@@ -724,7 +724,7 @@ select {
    ========================================================================== */
 #redback {
 	width: 100%; 
-    	background-color: #dd0000;
+    	background-color: #444444;
 	margin: 0 auto;
 	padding: 0;
 }
